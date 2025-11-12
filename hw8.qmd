@@ -1,0 +1,21 @@
+---
+title: "HW8 – Basic Modeling Practice (Seoul Bike Sharing)"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(janitor)
+library(tidymodels)
+library(broom)
+```
+
+## Reading Data
+
+```{r}
+# read in the data
+url <- "https://www4.stat.ncsu.edu/~online/datasets/SeoulBikeData.csv"
+
+```
